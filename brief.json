@@ -1,7 +1,7 @@
 {
   "bit": "aws-utils",
   "path": "dist",
-  "version": "1.4",
+  "version": "1.5",
   "author": "Cleverson Puche",
   "description": "Bitcode for AWS integrations",
   "dependencies": {
