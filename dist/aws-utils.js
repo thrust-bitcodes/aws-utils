@@ -9,7 +9,7 @@ function getS3Client() {
     var awsUtilsConfig = getConfig()['aws-utils']
     var s3Client
 
-    if(awsUtilsConfig.accessKey !== undefined && awsUtilsConfig.secretKey !== undefined) {
+    if(awsUtilsConfig && awsUtilsConfig.accessKey !== undefined && awsUtilsConfig.secretKey !== undefined) {
         s3Client = new S3Utils(awsUtilsConfig.accessKey, awsUtilsConfig.secretKey)
     } else {
         s3Client = new S3Utils()
