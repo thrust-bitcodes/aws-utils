@@ -1,9 +1,25 @@
 {
   "bit": "aws-utils",
   "path": "dist",
-  "version": "1.1",
+  "version": "1.2",
   "author": "Cleverson Puche",
   "description": "Bitcode for AWS integrations",
   "dependencies": {
+    "jars": [
+      "com.amazonaws:aws-java-sdk-s3:1.11.289",
+      "com.amazonaws:aws-java-sdk-kms:1.11.289",
+      "com.amazonaws:aws-java-sdk-core:1.11.289",
+      "com.amazonaws:jmespath-java:1.11.289",
+      "com.fasterxml.jackson.core:jackson-databind:2.9.4",
+      "com.fasterxml.jackson.core:jackson-annotations:2.9.4",
+      "com.fasterxml.jackson.core:jackson-core:2.9.4",
+      "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.9.4",
+      "commons-logging:commons-logging:1.2",
+      "joda-time:joda-time:2.9.9.",
+      "org.apache.httpcomponents:httpclient:4.5.5",
+      "commons-codec:commons-codec:1.11",
+      "org.apache.httpcomponents:httpcore:4.4.9",
+      "software.amazon.ion:ion-java:1.1.0"
+    ]
   }
 }
