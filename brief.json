@@ -1,0 +1,13 @@
+{
+  "bit": "aws-utils",
+  "path": "dist/aws-utils.js",
+  "version": "1.0",
+  "author": "Cleverson Puche",
+  "description": "Bitcode to itegrate with AWS platform",
+  "libs": [
+    {
+      "path": "dist/lib/awsutils.jar",
+      "startup": "true"
+    }
+  ]
+}
