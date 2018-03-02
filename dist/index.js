@@ -1,8 +1,10 @@
 
 /*
  * @Author: Cleverson Puche
- * @Date: 2017-13-12 18:59:57
+ * @Date: 2018-02-03 18:59:57
  */
+
+loadJar('./lib/awsutils.jar')
 
 function getS3Client() {
     var S3Utils = Java.type('br.com.softbox.awsutils.S3Utils')
