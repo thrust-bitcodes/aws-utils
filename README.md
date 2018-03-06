@@ -53,3 +53,15 @@ As propriedades abaixo devem ser configuradas no arquivo *config.json* (distribu
   }
 }
 ```
+
+## Configurando diretamente no ambiente
+Seguindo as recomendações da própria AWS, as configurações de acesso ao serviço S3 devem ficar no ambiente, e não no arquivo config.json. Sendo assim, você deve criar dois arquivos no diretório ~/.aws:
+
+Arquivo chamado _config_:
+[default]
+region = us-east-1
+
+Arquivo chamado _credentials_:
+[default]
+aws_access_key_id = sua_access_key_aqui
+aws_secret_access_key = sua_secret_key_aqui
