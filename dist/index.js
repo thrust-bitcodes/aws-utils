@@ -8,7 +8,7 @@ loadJar('./lib/awsutils.jar')
 
 function getS3Client() {
   var S3Utils = Java.type('br.com.softbox.awsutils.S3Utils')
-  var awsUtilsConfig = getConfig()['aws-utils']
+  var awsUtilsConfig = getConfig()['awsUtils']
   var s3Client
 
   if (awsUtilsConfig && awsUtilsConfig.accessKey !== undefined && awsUtilsConfig.secretKey !== undefined) {
@@ -23,7 +23,7 @@ function getS3Client() {
 /**
   * Get a file from a given S3 bucket
   * @param {String} bucketName
-  * @param {String} keyName - key to be used to store file on S3
+  * @param {String} keyName - key to be get from S3 bucket
   * @example
    * getFileContentFromS3("myBucket", "myFileName")
 */
