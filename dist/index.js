@@ -10,7 +10,6 @@ var AmazonS3ClientBuilder = Java.type('com.amazonaws.services.s3.AmazonS3ClientB
 var Regions = Java.type('com.amazonaws.regions.Regions');
 var File = Java.type('java.io.File');
 var PutObjectRequest = Java.type('com.amazonaws.services.s3.model.PutObjectRequest');
-var S3Utils = Java.type('br.com.softbox.awsutils.S3Utils')
 
 function getS3Client() {
   var awsUtilsConfig = getConfig()['awsUtils']
